@@ -1102,6 +1102,48 @@
     cursor: pointer;
 }
 
+.certificates {
+    padding: 80px 20px;
+    background: #f9fafb;
+}
+
+.certificate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.certificate-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-6px);
+}
+
+.certificate-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.certificate-card h4 {
+    font-size: 16px;
+    margin: 8px 0 4px;
+}
+
+.certificate-card span {
+    font-size: 14px;
+    color: #666;
+}
+
+
 /* Mobile Adjustments */
 @media (max-width: 768px) {
     .gallery-grid {
@@ -1216,6 +1258,42 @@
                     <span class="specialization-tag">Root Canal Treatment</span>
                     <span class="specialization-tag">Dental Crowns & Bridges</span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications & Achievements</h2>
+                <p>Recognized training and professional certifications in advanced dentistry.</p>
+            </div>
+
+            <div class="certificate-grid">
+                <div class="certificate-card">
+                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-26 at 11.41.19 AM.jpeg" alt="Implantology Certificate">
+                    <h4>BDS - BIDSH college Patna</h4>
+                    <!-- <span>ICOI</span> -->
+                </div>
+
+                <div class="certificate-card">
+                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-26 at 11.41.19 AM (1).jpeg" alt="DSD Certificate">
+                    <h4>Certified extensive course of American association of implant dentistry</h4>
+                    <!-- <span>DSD University</span> -->
+                </div>
+
+                <!-- <div class="certificate-card">
+                    <img src="https://via.placeholder.com/300x220" alt="International Training">
+                    <h4>Advanced Implant Training</h4>
+                    <span>Germany & South Korea</span>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="https://via.placeholder.com/300x220" alt="Prosthodontics Degree">
+                    <h4>MDS Prosthodontics</h4>
+                    <span>Manipal University</span>
+                </div> -->
             </div>
         </div>
     </section>

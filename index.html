@@ -1116,7 +1116,7 @@
 
 .certificate-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-top: 40px;
 }
@@ -1198,22 +1198,22 @@
             <div class="hero-content">
                 <h1>Expert Dental Care with Compassion</h1>
                 <p>Welcome to the practice of Dr. Vineet Bansal, a leading dental implant specialist in Noida with over
-                    25+ years of experience in transforming smiles and improving oral health.</p>
+                    30+ years of experience in transforming smiles and improving oral health.</p>
                 <div class="hero-btns">
                     <a href="https://wa.me/919810370685?text=Hello%20I%20want%20to%20book%20an%20appointment%0APlease%20call%20me" target="_blank" class="btn btn-accent">Book Appointment</a>
                     <a href="#contact" class="btn btn-outline">Contact Now</a>
                 </div>
                 <div class="quick-info" style="margin-top: 40px; display: flex; flex-wrap: wrap; gap: 30px;">
                     <div>
-                        <h3 style="color: white; font-size: 2rem; margin-bottom: 5px;">2,500+</h3>
+                        <h3 style="color: white; font-size: 2rem; margin-bottom: 5px;">500+</h3>
                         <p style="color: rgba(255,255,255,0.8);">Successful Implants</p>
                     </div>
                     <div>
-                        <h3 style="color: white; font-size: 2rem; margin-bottom: 5px;">25+</h3>
+                        <h3 style="color: white; font-size: 2rem; margin-bottom: 5px;">30+</h3>
                         <p style="color: rgba(255,255,255,0.8);">Years Experience</p>
                     </div>
                     <div>
-                        <h3 style="color: white; font-size: 2rem; margin-bottom: 5px;">98%</h3>
+                        <h3 style="color: white; font-size: 2rem; margin-bottom: 5px;">100%</h3>
                         <p style="color: rgba(255,255,255,0.8);">Success Rate</p>
                     </div>
                 </div>
@@ -1222,7 +1222,7 @@
                 <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/cover.webp"
                     alt="Dr. Vineet Bansal" class="doctor-img">
                 <div class="experience-badge">
-                    <span class="number">25+</span>
+                    <span class="number">30+</span>
                     <span class="text">Years Experience</span>
                 </div>
             </div>
@@ -1237,7 +1237,7 @@
                     alt="Dr. Vineet Bansal in clinic" class="about-img">
             </div>
             <div class="about-content">
-                <h2>About Dr. Vineet Bansal</h2>
+                <h2>About Dr. Vineet Bansal<span style="font-size: large;"> (BDS, FICD)</span></h2>
 
                 <p>
                     Dr. Vineet Bansal is a dental professional with a strong academic background and specialized
@@ -1265,6 +1265,52 @@
         </div>
     </section>
 
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-content">
+                <h2>About Dr. Rishu Bansal <span style="font-size: large;">(BDS)</span></h2>
+
+                <p>
+                    Dr. Rishu Bansal is a qualified dental surgeon with a solid academic foundation and
+                    clinical experience in general dentistry. She is known for her patient-focused
+                    approach, ethical practice, and emphasis on preventive and conservative dental care.
+                </p>
+
+                <p>
+                    She has also served as an <strong>Ex-Lecturer</strong>, contributing to dental education
+                    and mentoring undergraduate students during her academic tenure.
+                </p>
+
+                <ul class="qualification-list">
+                    <!-- <li>
+                        <i class="fas fa-graduation-cap"></i>
+                        <strong>BDS</strong> – Buddha Institute of Dental Sciences & Hospital (BIDSH), Patna
+                    </li> -->
+                    <li>
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <strong>Ex-Lecturer</strong> – Dental Education & Clinical Training
+                    </li>
+                </ul>
+
+                <div class="specializations">
+                    <span class="specialization-tag">General Dentistry</span>
+                    <span class="specialization-tag">Preventive Dental Care</span>
+                    <span class="specialization-tag">Patient Counseling</span>
+                </div>
+            </div>
+
+            <div class="about-image">
+                <img 
+                    src="https://satyam-singh-07.github.io/dr-vinit-bansal/unnamed (15).webp"
+                    alt="Dr. Rishu Bansal – Dental Surgeon"
+                    class="about-img"
+                >
+            </div>
+        </div>
+    </section>
+
+
     <!-- Certificates Section -->
     <section class="certificates" id="certificates">
         <div class="container">
@@ -1274,46 +1320,40 @@
             </div>
 
             <div class="certificate-grid">
-                <div class="certificate-card">
+                <div class="certificate-card" onclick="openLightbox(this)">
                     <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.20 AM (1).jpeg" alt="Implantology Certificate">
-                    <h4>BDS - BIDSH college Patna</h4>
-                    <!-- <span>ICOI</span> -->
+                    <h4>Full Mouth Rehabilitation (FMR)</h4>
+                    <span>3M ESPE Center, Gurgaon</span>
                 </div>
 
-                <div class="certificate-card">
+                <div class="certificate-card" onclick="openLightbox(this)">
                     <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.20 AM.jpeg" alt="DSD Certificate">
-                    <h4>Certified extensive course of American association of implant dentistry</h4>
-                    <!-- <span>DSD University</span> -->
+                    <h4>Dental Council Registration</h4>
+                    <span>Delhi Dental Council</span>
                 </div>
 
-                <div class="certificate-card">
-                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.21 AM (1).jpeg" alt="International Training">
-                    <h4>Advanced Implant Training</h4>
-                    <span>Germany & South Korea</span>
-                </div>
-
-                <div class="certificate-card">
-                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.21 AM (2).jpeg" alt="Prosthodontics Degree">
-                    <h4>MDS Prosthodontics</h4>
-                    <span>Manipal University</span>
-                </div>
-
-                <div class="certificate-card">
-                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.21 AM.jpeg" alt="Prosthodontics Degree">
-                    <h4>MDS Prosthodontics</h4>
-                    <span>Manipal University</span>
-                </div>
-
-                <div class="certificate-card">
+                <div class="certificate-card" onclick="openLightbox(this)">
                     <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.22 AM (1).jpeg" alt="Prosthodontics Degree">
-                    <h4>MDS Prosthodontics</h4>
-                    <span>Manipal University</span>
+                    <h4>AERB Registration (Dental X-Ray)</h4>
+                    <span>Atomic Energy Regulatory Board, Govt. of India</span>
                 </div>
 
-                <div class="certificate-card">
+                <div class="certificate-card" onclick="openLightbox(this)">
+                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.21 AM (1).jpeg" alt="International Training">
+                    <h4>Sterilization & Infection Control Certification</h4>
+                    <span>FARO Dental Systems</span>
+                </div>
+
+                <div class="certificate-card" onclick="openLightbox(this)">
+                    <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.21 AM (2).jpeg" alt="Prosthodontics Degree">
+                    <h4>Fellowship – International College of Dentists</h4>
+                    <span>International College of Dentists (ICD)</span>
+                </div>
+
+                <div class="certificate-card" onclick="openLightbox(this)">
                     <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.22 AM.jpeg" alt="Prosthodontics Degree">
-                    <h4>MDS Prosthodontics</h4>
-                    <span>Manipal University</span>
+                    <h4>AAID Membership</h4>
+                    <span>American Academy of Implant Dentistry</span>
                 </div>
             </div>
         </div>
@@ -1494,6 +1534,13 @@
             <div class="item-overlay">
             </div>
         </div>
+
+        <div class="gallery-item tall" onclick="openLightbox(this)">
+            <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.23 AM.jpeg" alt="Cityscape">
+            <div class="item-overlay">
+            </div>
+        </div>
+
         <div class="gallery-item tall" onclick="openLightbox(this)">
             <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/unnamed (9).webp" alt="Store Interior">
             <div class="item-overlay">
@@ -1518,12 +1565,17 @@
             </div>
         </div>
 
+        <div class="gallery-item tall" onclick="openLightbox(this)">
+            <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/WhatsApp Image 2025-12-30 at 11.34.23 AM (1).jpeg" alt="Cityscape">
+            <div class="item-overlay">
+            </div>
+        </div>
 
         <div class="gallery-item" onclick="openLightbox(this)">
             <img src="https://satyam-singh-07.github.io/dr-vinit-bansal/unnamed (8).webp" alt="Mountain View">
             <div class="item-overlay">
             </div>
-            </div>
+        </div>
 
 
 
